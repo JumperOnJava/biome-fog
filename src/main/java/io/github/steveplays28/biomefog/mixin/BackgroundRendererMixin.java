@@ -101,15 +101,18 @@ public abstract class BackgroundRendererMixin {
 		} else {
 			currentBiomeFogColor = defaultFogColor;
 		}
+		if(TimeUtil.isNight(world)){
+			currentBiomeFogColor = new Vec3d(0f,0f,0f);
+		}
 
 		if (fogStartAdditions.containsKey(BiomeFogClient.currentBiome) || fogEndAdditions.containsKey(
 				BiomeFogClient.currentBiome) || fogColors.containsKey(
 				BiomeFogClient.currentBiome) || fogStartAdditions.containsKey(
 				BiomeFogClient.currentDimension) || fogEndAdditions.containsKey(
 				BiomeFogClient.currentDimension) || fogColors.containsKey(BiomeFogClient.currentDimension)) {
-			CONFIG.fogColorLerpTime = MathUtil.clamp(0f, 1f, CONFIG.fogColorLerpTime + tickDelta * 0.001f);
+			CONFIG.fogColorLerpTime = MathUtil.clamp(0f, 1f, CONFIG.fogColorLerpTime + tickDelta * 0.0001f);
 		} else {
-			CONFIG.fogColorLerpTime = MathUtil.clamp(0f, 1f, CONFIG.fogColorLerpTime - tickDelta * 0.001f);
+			CONFIG.fogColorLerpTime = MathUtil.clamp(0f, 1f, CONFIG.fogColorLerpTime - tickDelta * 0.0001f);
 		}
 
 		// Linearly interpolate fog color

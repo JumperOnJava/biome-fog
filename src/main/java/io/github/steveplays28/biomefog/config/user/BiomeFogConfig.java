@@ -75,26 +75,26 @@ public class BiomeFogConfig implements BiomeFogBaseConfig {
 			entry("minecraft:wooded_badlands", new Vec3d(0.75f, 0.4f, 0.13f))
 	);
 	public Map<String, Vec3d> fogColorsNight = Map.ofEntries(
-			entry("minecraft:the_nether", new Vec3d(0.26f, 0f, 0f)),
-			entry("minecraft:swamp", new Vec3d(0.042f, 0.042f, 0.0075f)),
-			entry("minecraft:mangrove_swamp", new Vec3d(0.042f, 0.042f, 0.0075f)),
-			entry("minecraft:jungle", new Vec3d(0.0225f, 0.063f, 0.0195f)),
-			entry("minecraft:bamboo_jungle", new Vec3d(0.0225f, 0.063f, 0.0195f)),
-			entry("minecraft:sparse_jungle", new Vec3d(0.0225f, 0.063f, 0.0195f)),
-			entry("minecraft:snowy_plains", new Vec3d(0.1f, 0.1f, 0.1f)),
-			entry("minecraft:snowy_slopes", new Vec3d(0.1f, 0.1f, 0.1f)),
-			entry("minecraft:snowy_taiga", new Vec3d(0.1f, 0.1f, 0.1f)),
-			entry("minecraft:snowy_beach", new Vec3d(0.1f, 0.1f, 0.1f)),
-			entry("minecraft:frozen_peaks", new Vec3d(0.1f, 0.1f, 0.1f)),
-			entry("minecraft:jagged_peaks", new Vec3d(0.1f, 0.1f, 0.1f)),
-			entry("minecraft:frozen_ocean", new Vec3d(0.1f, 0.1f, 0.1f)),
-			entry("minecraft:frozen_river", new Vec3d(0.1f, 0.1f, 0.1f)),
-			entry("minecraft:ice_spikes", new Vec3d(0.1f, 0.1f, 0.1f)),
-			entry("minecraft:grove", new Vec3d(0.1f, 0.1f, 0.1f)),
-			entry("minecraft:desert", new Vec3d(0.84f, 0.78f, 0.6f)),
-			entry("minecraft:badlands", new Vec3d(0.75f, 0.4f, 0.13f)),
-			entry("minecraft:eroded_badlands", new Vec3d(0.75f, 0.4f, 0.13f)),
-			entry("minecraft:wooded_badlands", new Vec3d(0.75f, 0.4f, 0.13f))
+			entry("minecraft:the_nether",		new Vec3d(0.26f, 0f, 0f)),
+			entry("minecraft:swamp",			new Vec3d(0.042f, 0.042f, 0.0075f)),
+			entry("minecraft:mangrove_swamp",	new Vec3d(0.042f, 0.042f, 0.0075f)),
+			entry("minecraft:jungle",			new Vec3d(0.0225f, 0.063f, 0.0195f)),
+			entry("minecraft:bamboo_jungle",	new Vec3d(0.0225f, 0.063f, 0.0195f)),
+			entry("minecraft:sparse_jungle",	new Vec3d(0.0225f, 0.063f, 0.0195f)),
+			entry("minecraft:snowy_plains",		new Vec3d(0.1f, 0.1f, 0.1f)),
+			entry("minecraft:snowy_slopes",		new Vec3d(0.1f, 0.1f, 0.1f)),
+			entry("minecraft:snowy_taiga",		new Vec3d(0.1f, 0.1f, 0.1f)),
+			entry("minecraft:snowy_beach",		new Vec3d(0.1f, 0.1f, 0.1f)),
+			entry("minecraft:frozen_peaks",		new Vec3d(0.1f, 0.1f, 0.1f)),
+			entry("minecraft:jagged_peaks",		new Vec3d(0.1f, 0.1f, 0.1f)),
+			entry("minecraft:frozen_ocean",		new Vec3d(0.1f, 0.1f, 0.1f)),
+			entry("minecraft:frozen_river",		new Vec3d(0.1f, 0.1f, 0.1f)),
+			entry("minecraft:ice_spikes",		new Vec3d(0.1f, 0.1f, 0.1f)),
+			entry("minecraft:grove",			new Vec3d(0.1f, 0.1f, 0.1f)),
+			entry("minecraft:desert",			new Vec3d(0.1f,0f,0)),
+			entry("minecraft:badlands",			new Vec3d(0.75f, 0.4f, 0.13f)),
+			entry("minecraft:eroded_badlands",	new Vec3d(0.75f, 0.4f, 0.13f)),
+			entry("minecraft:wooded_badlands",	new Vec3d(0.75f, 0.4f, 0.13f))
 	);
 
 	// Fog start additions and fog end additions
